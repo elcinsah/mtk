@@ -21,6 +21,10 @@
                 <input type="password" class="form-control" id="pass" name="pass" value="" required>
 
             </div>
+            <div class="form-group">
+                <label for="rolel">role: admin:(1) user:(0)</label>
+                <input type="number" class="form-control" id="role" name="role" value="" max="1" required>
+            </div>
 
             <button type="submit" class="btn btn-default">gonder</button>
         </form>

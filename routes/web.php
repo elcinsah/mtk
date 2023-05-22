@@ -10,7 +10,7 @@ use App\Http\Controllers\loginController;
 use App\Http\Controllers\ViewController;
 
 
-Route::get('home', function () {
+Route::get('/', function () {
     return view('home');
 })->name('login.regester');
 

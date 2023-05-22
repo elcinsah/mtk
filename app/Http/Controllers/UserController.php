@@ -28,6 +28,7 @@ class UserController extends Controller
     public function creatUser(userRequest $req)
     {
         $user = new User();
+        $user->role=$req->role;
         $user->name = $req->name;
         $user->email = $req->email;
         $user->password = $req->pass;

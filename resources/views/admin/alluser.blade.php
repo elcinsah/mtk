@@ -14,7 +14,9 @@
 
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">DataTable with default features</h3>
+                            <p>  <a href="{{route('user.add')}}" title="elave et"
+                                    class="btn btn-sm btn-primary"><i
+                                        class="fa fa-plus"></i></a></p>
                         </div>
 
 
@@ -26,8 +28,7 @@
                                     <th>id</th>
                                     <th>name</th>
                                     <th>email</th>
-
-
+                                    <th>role</th>
                                     <th>op</th>
 
                                 </tr>
@@ -40,16 +41,9 @@
                                     <tr>
                                         <td>{{$user->id}}</td>
                                         <td>{{$user->name}}</td>
-
                                         <td>{{$user->email}}</td>
+                                        <td>{!!$user->role==0 ? "<span class='text-danger'>user</span>":"<span class='text-success'>admin</span>" !!}</td>
                                         <td>
-
-
-
-                                            <a href="{{route('user.add')}}" title="elave et"
-                                               class="btn btn-sm btn-primary"><i
-                                                    class="fa fa-plus"></i></a>
-
                                             <a href="{{route('user.del',$user->id)}}" title="sil" class="btn btn-sm btn-danger"><i
                                                     class="fa fa-times"></i></a>
                                         </td>

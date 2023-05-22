@@ -14,7 +14,8 @@
 
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">DataTable with default features</h3>
+                           <p> <a href="{{route('mtk.add')}}" title="yarat" class="btn btn-sm btn-primary"><i
+                                       class="fa fa-plus"></i></a></p>
                         </div>
 
 
@@ -36,8 +37,7 @@
                                         <td>{{$mtks->name}}</td>
 
                                         <td>
-                                            <a href="{{route('mtk.add')}}" title="yarat" class="btn btn-sm btn-primary"><i
-                                                    class="fa fa-plus"></i></a>
+
                                             <a href="{{route('mtk.del',$mtks->id)}}" title="sil" class="btn btn-sm btn-danger"><i
                                                     class="fa fa-times"></i></a>
                                         </td>

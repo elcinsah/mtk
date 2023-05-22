@@ -14,7 +14,8 @@
 
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">DataTable with default features</h3>
+                            <p> <a href="{{route('plaza.add')}}" title="yarat" class="btn btn-sm btn-primary"><i
+                                        class="fa fa-plus"></i></a></p>
                         </div>
 
 
@@ -45,8 +46,7 @@
 
 
                                         <td>
-                                            <a href="{{route('plaza.add')}}" title="yarat" class="btn btn-sm btn-primary"><i
-                                                    class="fa fa-plus"></i></a>
+
                                             <a href="{{route('plaza.del',$plazas->id)}}" title="sil" class="btn btn-sm btn-danger"><i
                                                     class="fa fa-times"></i></a>
                                         </td>
