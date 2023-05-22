@@ -6,16 +6,13 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">DataTable with minimal features & hover style</h3>
+                            <h3 class="card-title">Mtks</h3>
                         </div>
-
                     </div>
 
-
                     <div class="card">
-                        <div class="card-header">
-                           <p> <a href="{{route('mtk.add')}}" title="yarat" class="btn btn-sm btn-primary"><i
-                                       class="fa fa-plus"></i></a></p>
+                        <div class="card-header text-right">
+                           <p> <a href="{{route('mtk.add')}}" title="yarat" class="btn btn-sm btn-primary">Add Mtk</a></p>
                         </div>
 
 

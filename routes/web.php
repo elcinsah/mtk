@@ -39,9 +39,7 @@ route::prefix("admin/")->middleware(['auth', 'isadmin'])->group(function () {
 
 
 route::middleware(['auth', 'isuser'])->group(function () {
-
     route::get("user/page", [ViewController::class, "userView"])->name("user.view");
-
 });
 
 

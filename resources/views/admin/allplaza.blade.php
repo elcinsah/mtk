@@ -5,17 +5,16 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">DataTable with minimal features & hover style</h3>
+                        <div class="card-header ">
+                            <h3 class="card-title">Plazas</h3>
                         </div>
 
                     </div>
 
 
                     <div class="card">
-                        <div class="card-header">
-                            <p> <a href="{{route('plaza.add')}}" title="yarat" class="btn btn-sm btn-primary"><i
-                                        class="fa fa-plus"></i></a></p>
+                        <div class="card-header text-right">
+                            <p> <a href="{{route('plaza.add')}}" title="yarat" class="btn btn-sm btn-primary">Add Plaza</a></p>
                         </div>
 
 

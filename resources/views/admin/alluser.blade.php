@@ -5,18 +5,17 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">DataTable with minimal features & hover style</h3>
+                        <div class="card-header ">
+                            <h3 class="card-title">Users</h3>
                         </div>
 
                     </div>
 
 
                     <div class="card">
-                        <div class="card-header">
+                        <div class="card-header text-right">
                             <p>  <a href="{{route('user.add')}}" title="elave et"
-                                    class="btn btn-sm btn-primary"><i
-                                        class="fa fa-plus"></i></a></p>
+                                    class="btn btn-sm btn-primary">Add User</a></p>
                         </div>
 
 
